@@ -19,4 +19,10 @@
   font-family: inherit;
   font-size: 16px;
   font-weight: 700;
+  cursor: pointer;
+}
+
+.add-todo__submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
 }
